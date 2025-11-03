@@ -1,4 +1,4 @@
-🧠 AI Maze Agent: From Foundational Search to Reinforcement Learning
+# 🧠 AI Maze Agent: From Foundational Search to Reinforcement Learning 
 This project showcases a complete transition in AI methodology: starting with foundational Classical Search algorithms and evolving into a dynamic, interactive environment solved by a Model-Free Reinforcement Learning (Q-Learning) agent. It demonstrates proficiency in core AI concepts, algorithmic implementation, and the development of a functional game environment using Python/Pygame.
 
 💡 Why This Project? (My Fascination)
