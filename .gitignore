@@ -1,0 +1,72 @@
+=============== Operating System and IDE ================
+
+.DS_Store
+.vscode/
+.idea/
+*~
+
+==================== Python ===========================
+
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+C extensions
+
+*.so
+
+Distribution / packaging
+
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+htmlcov/
+.tox/
+
+Virtual environment
+
+.venv
+venv/
+env/
+/bin/
+/lib/
+/include/
+
+Unit test / coverage
+
+.coverage
+.mypy_cache/
+.pytest_cache/
+
+===================== Pygame ==========================
+
+Pygame creates a temp directory sometimes
+
+pygame_temp/
+
+==================== Data & Logs ======================
+
+Compiled data models/weights (CRITICAL for Q-Learning project)
+
+You specifically mentioned: qtable.pkl or q_table.pkl
+
+*.pkl
+*.data
+*.npz
+*.npy
+*.log
+log.ipynb # Jupyter notebooks containing execution logs
+
+====================== Assets =========================
+
+While you included an 'assets' folder in game_lr.py,
+
+we should keep the assets for the game unless they are very large.
+
+If your assets folder contains large binary files, uncomment the line below:
+
+assets/
